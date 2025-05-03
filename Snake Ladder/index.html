@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snakes and Ladders Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Snakes and Ladders</h1>
+        <div class="board">
+            <!-- Generate 100 cells for the board -->
+            <div class="cell" id="cell-100">100</div>
+            <!-- Add more cells here -->
+        </div>
+        <div class="controls">
+            <button onclick="rollDice()">Roll Dice</button>
+            <p id="message">Player 1's turn</p>
+            <p id="diceResult"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
